@@ -1,0 +1,29 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "portfolio to showcase projects",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "prod": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/encetroc/portfolio.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "javascript",
+    "parcel"
+  ],
+  "author": "elmehdi rhindi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/encetroc/portfolio/issues"
+  },
+  "homepage": "https://github.com/encetroc/portfolio#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
