@@ -283,6 +283,17 @@ h3 { font-size: var(--fs-h3); }
     margin: 0;
 }
 
+.section__list--intro {
+    display: flex;
+    font-size: calc(var(--fs-h3) + 0.6rem);
+    color: var(--clr-accent);
+}
+
+.link--intro {
+    color: var(--clr-accent);
+    margin-right: 0.6em;
+}
+
 /* skills */
 
 .skills {
