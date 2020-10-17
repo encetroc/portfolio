@@ -40,7 +40,7 @@ npm run dev
 ```
 All source files (html, css, js and assets) are in `src` directory.
 ## Roadmap
-- [ ] Add svg background to Skills section, Projects section and footer
+- [x] Add svg background to Skills section, Projects section and footer
 - [ ] Add an SVG logo
 - [ ] Add initial animation to Introduction section
 - [ ] Add scroll animation for the following sections
