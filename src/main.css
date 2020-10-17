@@ -18,6 +18,7 @@ html {
     --fw-bold: 900;
 
     --clr-light: #F7F9F9;
+    --clr-light-trans: rgba(247,249,249,0.1);
     --clr-dark: #0F3343;
     --clr-accent: #F15855;
 
@@ -306,16 +307,16 @@ h3 { font-size: var(--fs-h3); }
 .skills {
     background: var(--clr-dark);
     color: var(--clr-light);
-/*     background-image: url('assets/bg1.jpg');
-    background-size: cover;
-    background-blend-mode: multiply; */
+    background-image: url('./assets/Dragon-Scales.svg');
+    /* background by SVGBackgrounds.com */
+    background-blend-mode: luminosity;
 }
 
 .card-skills {
     display: flex;
     flex-direction: column;
-    background: var(--clr-light);
-    color: var(--clr-dark);
+    background: var(--clr-light-trans);
+    color: var(--clr-light);
     box-shadow: var(--bs-big);
     border-radius: var(--br);
     text-align: center;
@@ -384,9 +385,9 @@ h3 { font-size: var(--fs-h3); }
 
 .projects {
     background: var(--clr-dark);
-/*     background-image: url('assets/bg2.jpg');
-    background-size: cover;
-    background-blend-mode: multiply; */
+    background-image: url('./assets/Dragon-Scales.svg');
+    /* background by SVGBackgrounds.com */
+    background-blend-mode: luminosity;
 }
 
 .s-t-projects {
@@ -475,7 +476,10 @@ h3 { font-size: var(--fs-h3); }
 /* footer */
 
 .footer {
-    background: #0A151F;
+    background: var(--clr-dark);
+    background-image: url('./assets/Liquid-Cheese.svg');
+    background-repeat: no-repeat;
+    background-size: 100vw auto;
     color: var(--clr-accent);
     text-align: center;
     padding: 2.5em 0;
