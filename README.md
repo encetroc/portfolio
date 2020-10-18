@@ -1,9 +1,9 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ee6fa449-4e11-47c9-91cd-799e00ef42e7/deploy-status)](https://app.netlify.com/sites/angry-euclid-b02a21/deploys)  
+![GitHub top language](https://img.shields.io/github/languages/top/encetroc/portfolio?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/encetroc/portfolio?style=for-the-badge)
 ![GitHub](https://img.shields.io/github/license/encetroc/portfolio?style=for-the-badge)
-![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/encetroc/portfolio/dev/parcel-bundler/main?style=for-the-badge)
 ![Website](https://img.shields.io/website?style=for-the-badge&url=https%3A%2F%2Fangry-euclid-b02a21.netlify.app%2F)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/y/encetroc/portfolio?style=for-the-badge)
+![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/encetroc/portfolio/dev/parcel-bundler/main?style=for-the-badge)
 # Personal portfolio
 <p align="center">
   <img src="./demo.gif">
@@ -12,7 +12,7 @@
 This project is about making my personal portfolio to showcase projects I make.  
 You can use it for your own personal portfolio if you want to.  
 It is made using only HTML, CSS and Javascript, I used Parcel to minify and bundle the project and Netlify to deploy it.  
-Portfolio contains the following feature:  
+The portfolio contains the following features:  
 - Logo
 - Fullscreen navigation
 - Introduction section

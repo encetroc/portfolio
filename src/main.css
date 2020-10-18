@@ -428,7 +428,7 @@ h3 { font-size: var(--fs-h3); }
 }
 
 .card-img-projects img {
-    max-width: 120%;
+    max-width: 150%;
 }
 
 .card-txt-projects {
